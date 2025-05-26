@@ -1,62 +1,76 @@
-🐍 Snake Game using Python and Turtle
-This is a classic Snake game built using Python's built-in turtle graphics module. The player controls a snake to eat food, and the snake grows longer with each item eaten. The game ends when the snake collides with the wall or itself.
+# 🐍 Snake Game using Python and Turtle
 
-📷 Screenshot
-(Optional: Add a screenshot of your game here)
+This is a classic Snake game built using Python's built-in `turtle` graphics module. The player controls a snake to eat food, and the snake grows longer with each item eaten. The game ends when the snake collides with the wall or itself.
 
-🚀 Features
-Classic snake movement mechanics
+---
 
-Food appears in random locations
+## 📷 Screenshot
 
-Snake grows after eating food
+*(Optional: Add a screenshot of your game here)*
 
-Score tracking
+---
 
-Game over detection on collision with wall or self
+## 🚀 Features
 
-Clean and simple graphics using the turtle module
+- Classic snake movement mechanics  
+- Food appears in random locations  
+- Snake grows after eating food  
+- Score tracking  
+- Game over detection on collision with wall or self  
+- Clean and simple graphics using the `turtle` module  
 
-🛠️ Requirements
-Python 3.x
+---
 
-No external libraries required (uses built-in turtle module)
+## 🛠️ Requirements
 
-▶️ How to Run
-Clone or download this repository:
+- Python 3.x  
+- No external libraries required (uses built-in `turtle` module)
 
-bash
-Copy
-Edit
+---
+
+## ▶️ How to Run
+
+1. **Clone or download this repository:**
+
+```bash
 git clone https://github.com/yourusername/snake-game-python.git
 cd snake-game-python
-Run the game:
+```
 
-bash
-Copy
-Edit
+2. **Run the game:**
+
+```bash
 python snake.py
-🎮 Controls
-Arrow Keys — Move the snake (Up, Down, Left, Right)
+```
 
-Avoid hitting the wall or yourself
+---
 
-Eat food to score points and grow longer
+## 🎮 Controls
 
-📂 File Structure
-bash
-Copy
-Edit
+- **Arrow Keys** — Move the snake (`Up`, `Down`, `Left`, `Right`)  
+- Avoid hitting the wall or yourself  
+- Eat food to score points and grow longer  
+
+---
+
+## 📂 File Structure
+
+```
 snake-game-python/
 │
 ├── snake.py         # Main game logic
 ├── README.md        # Game documentation
-(Add more files if you split logic across multiple files)
+```
 
-📌 Notes
-The game window may vary slightly depending on screen resolution.
+---
 
-You can customize speed, colors, and window size in the snake.py file.
+## 📌 Notes
 
-📄 License
+- The game window may vary slightly depending on screen resolution.  
+- You can customize speed, colors, and window size in the `snake.py` file.
+
+---
+
+## 📄 License
+
 This project is open source and available under the MIT License.
